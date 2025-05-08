@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .todo-app {
+    background: white;
+    margin-top: 40px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 350px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ff6f61;
+  }
+  
+  .input-section {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ff6f61;
+    border-radius: 8px 0 0 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    background-color: #ff6f61;
+    color: white;
+    font-size: 20px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff3b2e;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #ffe5ec;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    background-color: #c0f2c0;
+    color: #555;
+  }
+  
+  .delete-btn {
+    background: #ff3b2e;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 8px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background: #cc0000;
+  }
+  
