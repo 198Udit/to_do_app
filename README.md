@@ -1,5 +1,5 @@
-# to_do_app
-## 🌈 Colorful To-Do App
+# to_do_webapp
+## 🌈 Colorful To-Do webApp
 
 The **Colorful To-Do App** is a sleek, minimal, and vibrant task manager built using HTML5, CSS3, and JavaScript. Designed with a playful aesthetic and smooth user experience in mind, it's perfect for managing daily tasks in a visually appealing way.
 
